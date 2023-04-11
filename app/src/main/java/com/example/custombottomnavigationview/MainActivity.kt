@@ -36,31 +36,31 @@ class MainActivity : AppCompatActivity() {
         val menuItems = arrayOf(
             CbnMenuItem(
                 R.drawable.ic_notification,
-                R.drawable.avd_notification,
+                R.drawable.avd_anim,
                 R.id.navigation_notifications,
                 "Notification"
             ),
             CbnMenuItem(
                 R.drawable.ic_dashboard,
-                R.drawable.avd_dashboard,
+                R.drawable.avd_anim_1,
                 R.id.navigation_dashboard,
                 "Dashboard"
             ),
             CbnMenuItem(
                 R.drawable.ic_home,
-                R.drawable.avd_home,
+                R.drawable.avd_anim_2,
                 R.id.navigation_home,
                 "Home"
             ),
             CbnMenuItem(
                 R.drawable.ic_profile,
-                R.drawable.avd_profile,
+                R.drawable.avd_anim_3,
                 R.id.navigation_profile,
                 "Profile"
             ),
             CbnMenuItem(
                 R.drawable.ic_settings,
-                R.drawable.avd_settings,
+                R.drawable.avd_anim,
                 R.id.navigation_settings,
                 "Setting"
             )

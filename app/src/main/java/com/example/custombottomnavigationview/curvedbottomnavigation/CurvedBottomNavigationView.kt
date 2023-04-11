@@ -59,7 +59,7 @@ class CurvedBottomNavigationView @JvmOverloads constructor(
 
 
     // default values for custom attributes
-    var selectedColor = Color.parseColor("#000000")
+    var selectedColor = Color.WHITE
         set(value) {
             field = value
             if (isMenuInitialized) {
@@ -96,7 +96,7 @@ class CurvedBottomNavigationView @JvmOverloads constructor(
             }
         }
 
-    var fabBackgroundColor = Color.WHITE
+    var fabBackgroundColor = Color.parseColor("#0C559A")
         set(value) {
             field = value
             fabPaint.color = value
